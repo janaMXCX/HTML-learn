@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS字体属性之间的复合属性</title>
+    <style>
+        /* 想要dic文字变倾斜 加粗 字号设置为16像素 并且是微软雅黑 */
+        div {
+            font-style: italic;
+            font-family: '微软雅黑';
+            font-weight: 700;
+            font-size: 16px;
+        }
+        /* 符合属性有要求,简单的写法 */
+        /* font: font-style font-weight font-size/line-height font-family 后面两个属性必须保留其他可以不用 */
+        div {
+            font: italic 700 16px '微软雅黑'
+        }
+    </style>
+</head>
+<body>
+    <div>三生三世十里桃花,一心一意百行代码</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+    表单域就是包含表单元素的区域 
+    标签是<form>
+    <form action="url地址" method="提交方式" name="表单域的名称">
+        各种表单元素控件
+    </form>
+    -->
+    <!-- 
+    表单元素
+    1 input输入表单元素 <input type="属性值" /> 自己去搜属性值可以写啥，我懒的打上去。
+    2 select下拉表单元素
+    3 textarea 文本域元素
+     -->
+    <form action="demo.php" method="get" name="name1" >
+        <!-- 文本框 -->
+        用户名:<input type="text" name="username" value="用户名"><br>
+        <!-- 密码框 -->
+        密码:<input type="password" name="password"><br>
+        <!-- 单选按钮 单选表单只有有相同的名字才可以多选一 -->
+        性别:男 <input type="radio" name="sex" value="男"> 女 <input type="radio" name="sex" value="女"><br>
+        <!-- 多选框 -->
+        爱好: 吃饭<input type="checkbox" name="hobby"value=吃饭 checked="checked"> 睡觉<input type="checkbox" name="hobby" value="睡觉"> 打豆豆<input type="checkbox" name="hobby" value="打豆豆"><br>
+        <!-- checke规定打开页面默认勾选（针对单选和多选） -->
+        <!-- maxlength最大长度 -->
+        <!-- submit提交按钮 点击了提交按钮之后会把表单域之中的元素，里面的值提交给后台服务器 -->
+        <input type="submit" value="注册">
+        <!-- reset 清除表单中的所有数据 -->
+        <input type="reset" value="重新填写"><br>
+        <!-- 普通按钮 button 后期结合js使用 -->
+        <input type="button" value="获取短信验证码"><br>
+        <!-- 上传文件 file -->
+        上传头像：<input type="file" >
+
+
+        
+    </form>
+</body>
+</html>

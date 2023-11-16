@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h3>文章信息</h3>
+        <hr>
+        <form action="">
+            <table border="0" height="100" width="1000" cellspacing="0">
+                <tr>
+                    <td>标题：</td>
+                    <td><input type="text" placeholder="请输入"></td>
+                    <td>作者：</td>
+                    <td><input type="text" placeholder="请输入"></td>
+                </tr>
+                <tr>
+                    <td>文章分类</td>
+                    <td>
+                        <select name="category" id="" style="padding-right: 98px;padding-bottom: 10px;">
+                            <option value="娱乐新闻">娱乐新闻</option>
+                            <option value="体育新闻">体育新闻</option>
+                            <option value="军事新闻">军事新闻</option>
+                            <option value="国外新闻" selected>国外新闻</option>
+                        </select>
+                    </td>
+                    <td>文章简介：</td>
+                    <td><textarea cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="1">图文封面</td>
+                    <td colspan="3"><input type="file" name="" id=""></td>
+                </tr>
+            </table>
+            <h3>文章内容</h3>
+            <hr>
+            <table>
+                <tr>
+                    <td>文章内容</td>
+                    <td><textarea cols="120" rows="30"></textarea></td>
+                </tr>
+            </table>
+            <h3>其他设置</h3>
+            <hr>
+            <table>
+                <tr>
+                    <td>benner显示:</td>
+                    <td><input type="radio" name="see" value="01" id="see"><label for="see">显示</label><input type="radio"
+                            name="see" value="02" id="no_see"><label for="no_see">不显示</label></td>
+                </tr>
+                <tr>
+                    <td>热门文章:</td>
+                    <td><input type="radio" name="text" value="01" id="see01"><label for="see01">显示</label><input
+                            type="radio" name="text" value="02" id="no_see01"><label for="no_see01">不显示</label></td>
+                </tr>
+            </table>
+            <input type="submit" name="sub" value="提交">
+        </form>
+    </div>
+</body>
+
+</html>
