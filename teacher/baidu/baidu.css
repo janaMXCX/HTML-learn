@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?sytglr');
+    src: url('fonts/icomoon.eot?sytglr#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?sytglr') format('truetype'),
+        url('fonts/icomoon.woff?sytglr') format('woff'),
+        url('fonts/icomoon.svg?sytglr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
 *{
     list-style: none;
     margin: 0px;
@@ -19,9 +31,9 @@ a{
 .cl{
     clear: both;
 }
-#menu{
+/* #menu{
     overflow: hidden;
-}
+} */
 #menu ul{
     padding-left: 10px;
     float: left;
@@ -34,7 +46,7 @@ a{
     margin-right: 15px;
 }
 
-#menu div{
+#menu>#set{
     margin-top: 25px;
     float: right;
 }
@@ -68,7 +80,7 @@ a{
     width: 654px;
     margin: 0px auto;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 #search>img {
     width: 260px;
@@ -86,6 +98,8 @@ a{
     border-radius: 10px 0px 0px 10px;
 }
 #search>form>button{
+    color: white;
+    font-size: 16px;
     height: 44px;
     width: 108px;
     background-color: #4e6ef2;
@@ -107,4 +121,45 @@ a{
 #search form span:hover{
     background-position: 0px 24px;
     cursor: pointer;
+}
+
+/* 热搜 */
+#search .hotsearch{
+    float: left;
+    margin-right: 50px;
+    margin-top: 60px;
+    text-align: left;
+}
+/* 行高 */
+#search .hotsearch>p{
+    margin-top: 20px;
+}
+#refresh{
+    font-family: icomoon;
+    font-size: 12px;
+    color: grey;
+}
+
+#bh,#bf{
+    font-family: icomoon;
+    font-size: 20px;
+    color: grey;
+}
+#hot{
+    color: white;
+    background-color:#ff6600;
+    font-style: normal;
+    padding: 3px;
+    border-radius: 5px 5px 5px 5px;
+}
+/* bottom */
+#bottom{
+    margin-top: 100px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    bottom: 0px;
+    height: 30px;
+    line-height: 30px;
+    background-color: white;
 }
