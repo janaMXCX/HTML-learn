@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?sytglr');
+    src: url('fonts/icomoon.eot?sytglr#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?sytglr') format('truetype'),
+        url('fonts/icomoon.woff?sytglr') format('woff'),
+        url('fonts/icomoon.svg?sytglr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+*{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: 16px;
+    color: #222222;
+}
+
+a{
+    font-size: 14px;
+    color: #222222;
+    text-decoration: none;
+}
+/* 菜单 */
+.cl{
+    clear: both;
+}
+/* #menu{
+    overflow: hidden;
+} */
+#menu>ul{
+    padding-left: 10px;
+    float: left;
+}
+
+#menu>ul>li{
+    float: left;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#menu>#set{
+    margin-top: 25px;
+    float: right;
+}
+
+#menu>#set>img{
+    float: right;
+    width: 90px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+#menu>#set>div {
+    float: right;
+    margin-top: 3px;
+    margin-left: 14px;
+    margin-right: 14px;
+    width: 50px;
+    height: 25px;
+}
+#menu>div>button {
+    float: right;
+    margin-left: 14px;
+    margin-right: 14px;
+    background-color: #4e6ef2;
+    color: white;
+    border: 0px;
+    width: 48px;
+    height: 24px;
+    border-radius: 5px;
+
+}
+/* #menu>#set{
+    position: relative;
+}
+
+#menu>#set>div>ul{
+    float: left;
+    position: absolute;
+    top: 28px;
+    left:105px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 15);
+    padding: 8px;
+    border-radius: 15%;
+} */
+
+
+#menu>#set>div{
+    text-align: center;
+}
+
+#menu>#set>div>ul {
+    text-align: center;
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 99999px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 15);
+    padding: 8px;
+    border-radius: 15%;
+    width: 70px;
+    height: 100px;
+}
+
+#menu>#set>div>ul>li {
+    margin: 2px 5px;
+}
+
+#menu>#set>div>ul>li :hover {
+    color: red;
+}
+
+#menu>#set>div:hover ul{
+    left: -17px;
+}
+/* search */
+#search {
+    width: 654px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 50px;
+}
+#search>img {
+    width: 260px;
+}
+#search>form{
+    position: relative;
+}
+#search>form>input{
+    width: 544px;
+    height: 40px;
+    border: 2px solid #c4c7ce;
+    border-right: 0px;
+    margin-right: 0px;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+}
+#search>form>button{
+    color: white;
+    font-size: 16px;
+    height: 44px;
+    width: 108px;
+    background-color: #4e6ef2;
+    border: 0px;
+    margin-left: 0px;
+    float: left;
+    border-radius: 0px 10px 10px 0px;
+}
+#search form span{
+    position: absolute;
+    left: 510px;
+    top: 10px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(image/xiangji.png);
+    background-position: 0px 48px;
+}
+#search form span:hover{
+    background-position: 0px 24px;
+    cursor: pointer;
+}
+
+/* 热搜 */
+#search .hotsearch{
+    float: left;
+    margin-right: 50px;
+    margin-top: 60px;
+    text-align: left;
+}
+/* 行高 */
+#search .hotsearch>p{
+    margin-top: 20px;
+}
+#refresh{
+    font-family: icomoon;
+    font-size: 12px;
+    color: grey;
+}
+
+#bh,#bf{
+    font-family: icomoon;
+    font-size: 20px;
+    color: grey;
+}
+#hot{
+    color: white;
+    background-color:#ff6600;
+    font-style: normal;
+    padding: 3px;
+    border-radius: 5px 5px 5px 5px;
+}
+/* bottom */
+#bottom{
+    margin-top: 100px;
+    position: fixed;
+    left: 50%;
+
+    transform: translate(-50%, -50%);    
+    bottom: -15px;
+    height: 30px;
+    line-height: 30px;
+    background-color: white;
+}
