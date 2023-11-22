@@ -34,12 +34,12 @@ a{
 /* #menu{
     overflow: hidden;
 } */
-#menu ul{
+#menu>ul{
     padding-left: 10px;
     float: left;
 }
 
-#menu li{
+#menu>ul>li{
     float: left;
     margin-top: 25px;
     margin-left: 15px;
@@ -57,7 +57,7 @@ a{
     margin-left: 14px;
     margin-right: 14px;
 }
-#menu>div>a {
+#menu>#set>div {
     float: right;
     margin-left: 14px;
     margin-right: 14px;
@@ -75,6 +75,45 @@ a{
     border-radius: 5px;
 
 }
+/* #menu>#set{
+    position: relative;
+}
+
+#menu>#set>div>ul{
+    float: left;
+    position: absolute;
+    top: 28px;
+    left:-99999px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 15);
+    padding: 8px;
+    border-radius: 15%;
+} */
+
+
+#menu>#set>div{
+    text-align: center;
+}
+#menu>#set>div>ul {
+    text-align: center;
+    float: left;
+    position: relative;
+    top: 28px;
+    left: 65px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 15);
+    padding: 8px;
+    border-radius: 15%;
+}
+
+#menu>#set>div>ul>li{
+    margin: 2px 5px;
+}
+#menu>#set>div>ul>li :hover {
+    color: red;
+}
+/* #menu>#set>div:hover ul{
+    left: 105px;
+} */
+
 /* search */
 #search {
     width: 654px;
@@ -157,8 +196,9 @@ a{
     margin-top: 100px;
     position: fixed;
     left: 50%;
+
     transform: translate(-50%, -50%);    
-    bottom: 0px;
+    bottom: -15px;
     height: 30px;
     line-height: 30px;
     background-color: white;
