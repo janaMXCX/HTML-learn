@@ -77,6 +77,12 @@ a{
     border-radius: 5px;
 
 }
+
+.sx{
+    color: c4c7ce;
+    font-size: 20px;
+}
+
 /* #menu>#set{
     position: relative;
 }
@@ -208,4 +214,77 @@ a{
     height: 30px;
     line-height: 30px;
     background-color: white;
+}
+
+/* video */
+#vid>#vide1{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    position: relative;
+    transition: all 0.5s;
+    text-align: center;
+}
+#vid>#audi1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    transition: all 0.5s;
+    text-align: center;
+}
+/* 更多 */
+#menu #gengduo{
+    text-align: center;
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 999999px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 15);
+    padding: 8px;
+    border-radius: 5%;
+    width: 252px;
+    height: 300px;
+}
+#menu #gengduo>li{
+    float: left;
+    font-size: 14px;
+    margin: 2px 5px;
+    width: 74px;
+    height: 85px;
+}
+#menu #gengduoli{
+    width: 50px;
+    height: 25px;  
+}
+
+#menu #gengduoli img{
+    width: 60px;
+    height: 60px;
+}
+#menu #gengduo .wai>div{
+    margin-top: 0px;
+}
+#menu #gengduo .wai{
+    border-radius: 5%;
+    padding-top:5px ;
+}
+#menu #gengduoli:hover #gengduo{
+    left: -240px;
+}
+#menu #gengduo .wai:hover div{
+    color: red;
+}
+#menu #gengduo .wai:hover{
+    background-color: pink;
+}
+
+#chanpin{
+    float: left;
+    width: 250px;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+#chanpin:hover{
+    color: red;
 }
