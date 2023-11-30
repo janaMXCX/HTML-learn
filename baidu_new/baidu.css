@@ -10,53 +10,56 @@
     font-display: block;
 }
 
-*{
+* {
     list-style: none;
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-style: 16px;
     color: #222222;
 }
 
-a{
+a {
     font-size: 14px;
     color: #222222;
     text-decoration: none;
 }
+
 /* 菜单 */
-.cl{
+.cl {
     clear: both;
 }
+
 /* #menu{
     overflow: hidden;
 } */
-#menu>ul{
+#menu>ul {
     padding-left: 10px;
     float: left;
 }
 
-#menu>ul>li{
+#menu>ul>li {
     float: left;
     margin-top: 25px;
     margin-left: 15px;
     margin-right: 15px;
 }
 
-#menu>#set{
+#menu>#set {
     margin-top: 25px;
     float: right;
 }
 
-#menu>#set>img{
+#menu>#set>img {
     float: right;
     width: 90px;
     margin-left: 14px;
     margin-right: 14px;
 }
+
 #menu>#set>div {
     float: right;
     margin-top: 3px;
@@ -65,6 +68,7 @@ a{
     width: 50px;
     height: 25px;
 }
+
 #menu>div>button {
     float: right;
     margin-left: 14px;
@@ -78,7 +82,7 @@ a{
 
 }
 
-.sx{
+.sx {
     color: c4c7ce;
     font-size: 20px;
 }
@@ -98,7 +102,7 @@ a{
 } */
 
 
-#menu>#set>div{
+#menu>#set>div {
     text-align: center;
 }
 
@@ -107,7 +111,7 @@ a{
     float: left;
     position: relative;
     top: 5px;
-    left: 99999px;
+    left: -99999px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 15);
     padding: 8px;
     border-radius: 15%;
@@ -123,9 +127,10 @@ a{
     color: red;
 }
 
-#menu>#set>div:hover ul{
+#menu>#set>div:hover ul {
     left: -17px;
 }
+
 /* search */
 #search {
     width: 654px;
@@ -133,13 +138,16 @@ a{
     text-align: center;
     margin-top: 50px;
 }
+
 #search>img {
     width: 260px;
 }
-#search>form{
+
+#search>form {
     position: relative;
 }
-#search>form>input{
+
+#search>form>input {
     width: 544px;
     height: 40px;
     border: 2px solid #c4c7ce;
@@ -148,7 +156,8 @@ a{
     float: left;
     border-radius: 10px 0px 0px 10px;
 }
-#search>form>button{
+
+#search>form>button {
     color: white;
     font-size: 16px;
     height: 44px;
@@ -159,7 +168,8 @@ a{
     float: left;
     border-radius: 0px 10px 10px 0px;
 }
-#search form span{
+
+#search form span {
     position: absolute;
     left: 510px;
     top: 10px;
@@ -169,47 +179,53 @@ a{
     background-image: url(image/xiangji.png);
     background-position: 0px 48px;
 }
-#search form span:hover{
+
+#search form span:hover {
     background-position: 0px 24px;
     cursor: pointer;
 }
 
 /* 热搜 */
-#search .hotsearch{
+#search .hotsearch {
     float: left;
     margin-right: 50px;
     margin-top: 60px;
     text-align: left;
 }
+
 /* 行高 */
-#search .hotsearch>p{
+#search .hotsearch>p {
     margin-top: 20px;
 }
-#refresh{
+
+#refresh {
     font-family: icomoon;
     font-size: 12px;
     color: grey;
 }
 
-#bh,#bf{
+#bh,
+#bf {
     font-family: icomoon;
     font-size: 20px;
     color: grey;
 }
-#hot{
+
+#hot {
     color: white;
-    background-color:#ff6600;
+    background-color: #ff6600;
     font-style: normal;
     padding: 3px;
     border-radius: 5px 5px 5px 5px;
 }
+
 /* bottom */
-#bottom{
+#bottom {
     margin-top: 100px;
     position: fixed;
     left: 50%;
 
-    transform: translate(-50%, -50%);    
+    transform: translate(-50%, -50%);
     bottom: -15px;
     height: 30px;
     line-height: 30px;
@@ -217,67 +233,76 @@ a{
 }
 
 /* video */
-#vid>#vide1{
+#vid>#vide1 {
     margin-top: 100px;
     margin-bottom: 0px;
     position: relative;
     transition: all 0.5s;
     text-align: center;
 }
-#vid>#audi1{
+
+#vid>#audi1 {
     margin-top: 50px;
     margin-bottom: 50px;
     position: relative;
     transition: all 0.5s;
     text-align: center;
 }
+
 /* 更多 */
-#menu #gengduo{
+#menu #gengduo {
     text-align: center;
     float: left;
     position: relative;
     top: 5px;
-    left: 999999px;
+    left: -999999px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 15);
     padding: 8px;
     border-radius: 5%;
     width: 252px;
     height: 300px;
 }
-#menu #gengduo>li{
+
+#menu #gengduo>li {
     float: left;
     font-size: 14px;
     margin: 2px 5px;
     width: 74px;
     height: 85px;
 }
-#menu #gengduoli{
+
+#menu #gengduoli {
     width: 50px;
-    height: 25px;  
+    height: 25px;
 }
 
-#menu #gengduoli img{
+#menu #gengduoli img {
     width: 60px;
     height: 60px;
 }
-#menu #gengduo .wai>div{
+
+#menu #gengduo .wai>div {
     margin-top: 0px;
 }
-#menu #gengduo .wai{
+
+#menu #gengduo .wai {
     border-radius: 5%;
-    padding-top:5px ;
+    padding-top: 5px;
 }
-#menu #gengduoli:hover #gengduo{
+
+#menu #gengduoli:hover #gengduo {
     left: -240px;
 }
-#menu #gengduo .wai:hover div{
+
+#menu #gengduo .wai:hover div {
     color: red;
 }
-#menu #gengduo .wai:hover{
+
+#menu #gengduo .wai:hover {
     background-color: pink;
 }
 
-#chanpin{
+#chanpin {
     float: left;
     width: 250px;
     text-align: center;
@@ -285,6 +310,135 @@ a{
     font-size: 16px;
 }
 
-#chanpin:hover{
+#chanpin:hover {
     color: red;
+}
+
+
+/* 辅助 */
+#fuzhu {
+    position: relative;
+    float: right;
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    border-radius: 25px 25px 25px 25px;
+    top: 200px;
+    right: 20px;
+    text-align: center;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.6);
+}
+
+#shezhi {
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 0 auto;
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+
+#shezhi:hover {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.6);
+}
+
+#shezhi:hover .tanchuang1 {
+    right: 50px;
+}
+
+#erweima {
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 0 auto;
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+    margin-top: 10px;
+}
+
+#erweima>img {
+    margin: 0px;
+    width: 35px;
+    height: 35px;
+    margin-top: 4px;
+}
+
+#erweima>.tanchuang2 {
+    float: right;
+    position: relative;
+    right: 99999px;
+    top: -100px;
+    border-radius: 5px 5px 5px 5px;
+    width: 300px;
+    height: 100px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.6);
+}
+
+#erweima>.tanchuang2>#sp1 {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+#erweima>.tanchuang2>#sp2 {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #938686;
+}
+
+#erweima>.tanchuang2>img {
+    float: right;
+    position: relative;
+
+    bottom: 75px;
+    width: 90px;
+}
+
+#erweima:hover {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.6);
+}
+
+#erweima:hover .tanchuang2 {
+    right: 52px;
+}
+
+
+
+
+
+
+
+
+
+#shezhi>div {
+    float: right;
+    right: 9999px;
+    position: relative;
+    top: -40px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.6);
+    width: 100px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#shezhi>div>span {
+    display: block;
+    margin: 10px auto;
+}
+
+#shezhi>img {
+    margin-top: 4px;
 }
