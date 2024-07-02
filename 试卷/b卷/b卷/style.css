@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* 整体布局设置 */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td,
+img {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 12px;
+    color: #8a878e;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+}
+
+.cl {
+    clear: both;
+}
+
+/* 导航 */
+#nav{
+    width: 1200px;
+    height: 28px;
+    margin: 0 auto;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+#nav>ul>li{
+    float: left;
+    width: 100px;
+    height: 28px;
+    border-radius: 20px;
+    /* background-color: pink; */
+    line-height: 28px;
+    text-align: center;
+    margin-right: 2px;
+    margin-left: 2px;
+    font-size: 13px;
+    color: #66461f;
+}
+#nav>ul>li:hover{
+    background-color: red;
+}
+#nav>div{
+    float: right;
+    position: relative;
+    top: 5px;
+    color: #666666;
+}
+/* 中间的图片区域 */
+#zhongtu{
+    width: 1200px;
+    height: 230px;
+    margin: 0 auto;
+}
+#zhongtu>.tu{
+    float: left;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+#zhongtu>.tu>.dier{
+    height: 30px;
+    width: 250px;
+    margin-top: 0px;
+    background-color: #f7f7f7;
+    font-size: 13px;
+    color: #666666;
+    text-align: center;
+    line-height: 30px;
+}
+#zhongtu>.tu>.diyi{
+    width: 250px;
+    height: 200px;
+}
+#zhongtu>#tu1{
+    margin-left: 0px;
+}
+#zhongtu>#tu4{
+    margin-right: 0px;
+}
+/* 中间的图标 */
+#zhongjian{
+    width: 1200px;
+    height: 75px;
+    background-color: #f7f7f7;
+    margin: 0 auto; 
+    margin-top: 20px;
+}
+#zhongjian>div{
+    float: left;
+    width: 300px;
+    height: 75px;
+}
+#zhongjian>div>div{
+    background-color: pink;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 7.5px;
+    left: 53px;
+    float: left;
+}
+#zhongjian>div>p{
+    display: block;
+    float: left;
+    position: relative;
+    left:80px;
+    font-size: 13px;
+    line-height: 75px;
+}
+/* 再往下 */
+#erwei{
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+#erwei>.qian{
+    float: left;
+    width: 240px;
+    height: 120px;
+    text-align: center;
+}
+#erwei>.qian>div{
+    width: 95px;
+    height: 95px;
+    margin: 0 auto;
+}
+#erwei>.hou{
+    float: right;
+    width: 480px;
+    height: 120px;
+    text-align: center;
+}
+#erwei>.hou>div{
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+#erwei>.hou>p{
+    position: relative;
+    left: -120px;
+}
+/* 底部 */
+#bottom{
+    width: 1200px;
+    height: 85px;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    line-height: 42.5px;
+}
+#bottom>#xiayi{
+    width: 420px;
+    height: 42.5px;
+    margin: 0 auto;
+
+}
+#bottom>#xiayi>ul>li{
+    float: left;
+    height: 13px;
+    width: 70px;
+    font-size: 13px;
+}
+#bottom>#xiaer {
+    width: 420px;
+    height: 42.5px;
+    margin: 0 auto;
+
+}
+   
+
+#bottom>#xiaer>ul>li {
+    float: left;
+    height: 13px;
+    width: 70px;
+    font-size: 13px;
+}

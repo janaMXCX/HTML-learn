@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function showScore(type){
+            var msg=""
+            switch (type){
+                case 'A':
+                    {msg = "成绩为90~100"; break;}
+                case 'B':
+                    {msg = "成绩为80~89"; break;}
+                case 'C':
+                    {msg = "成绩为70~79"; break;}
+                case 'D':
+                    {msg = "成绩为60~69"; break;}
+                case 'E':
+                    {msg = "成绩低于60"; break;}
+                default:
+                    {msg = "输入错误"; break;}
+
+            }
+            alert(msg);
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        请输入学生成绩等级
+        <input type="text" name="score"><br>
+        <input type="button" value="显示学生分数" onclick="showScore(score.value)">
+    </form>
+</body>
+</html>

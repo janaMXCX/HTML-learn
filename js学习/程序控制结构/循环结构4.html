@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var i = 1 //定义计数器变量
+        document.write("<h3>screen对象所有属性名称/属性值：</h3>")
+        // 遍历所有对象
+        for (var property in screen){
+            document.write(i+"."+property+"/"+screen[property]+" ")
+            if (i%2==0){document.write("<br>")}
+            i++;
+        }
+        var stu = new Array("张三","李四","王五","马六")
+        var j = 1
+        document.write("<h3>数组对象的元素为</h3>")
+        for (var students in stu){
+            document.write(j+"."+stu[students]+" ")
+            if (j%2==0){
+                document.write("<br>")
+            }
+            j++;
+        }
+    </script>
+</body>
+</html>

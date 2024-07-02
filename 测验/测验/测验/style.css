@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* 整体布局设置 */
+
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,img {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 12px;
+    color: #8a878e;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+}
+/* 导航栏占位 */
+#nav{
+    width: 1000px;
+    height: 70px;
+    height:white;
+    margin: 0 auto;
+}
+/* 导航栏logo */
+#nav>#logo{
+    width: 70px;
+    height: 70px;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    float: left;
+    position: relative;
+    left: 100px;
+}
+#nav>#logo>span{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 18px 0;
+}
+#nav>ul{
+    position: relative;
+    float: right;
+    top: 45px;
+}
+
+#nav>ul>#home{
+    text-decoration: underline;
+}
+
+#nav>ul>li{
+    position: relative;
+    float: right;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #6f6f6f;
+    font-size: 14px;
+    font-weight: bold;
+}
+#nav>ul>li:hover{
+    text-decoration: underline;
+}
+/* 此处是宣传图 */
+#xuanchuan{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* 文字描述和图片 */
+#jieshao{
+    margin: 0 auto;
+    width: 1000px;
+    height: 450px;
+    
+}
+#jieshao>#wenzi{
+    width: 131px;
+    height: 131px;
+    float: left;
+    position: relative;
+    top: 160px;
+    left: 200px;
+}
+#jieshao>#wenzi>#s1{
+    color: #666666;
+    font-size: 22px;
+}
+#jieshao>#wenzi>#s2{
+    color: #6f6f6f;
+    font-size: 13px;
+}
+#jieshao>#tupian{
+    float: right;
+    position: relative;
+    right: 150px;
+}
+/* 下部分较为醒目的标签 */
+#biao{
+    width: 310px;
+    height: 31px;
+    margin: 0 auto;
+    background-color: #ccc;
+}
+#biao>div{
+    width: 150px;
+    height: 31px;
+    background-color: black;
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: center;
+    line-height: 31px;
+}
+#biao>div>span{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* 文字介绍 */
+#zhanshi{
+    width: 520px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#zhanshi>span{
+    color: #666666;
+    font-size: 13px;
+}
+/* 底部四个图片 */
+#sige{
+    width: 1000px;
+    margin: 0 auto;
+}
+#sige>.i1{
+    margin-left: 31px;
+    margin-right: 31px;
+}
+#sige>.i2{
+    margin-right: 31px;
+}
+#sige>.i3{
+    margin-left: 31px;
+}
+/* 最底部文字 */
+#bottom{
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666666;
+}

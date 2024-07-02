@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="0" width="400">
+        <thead>
+            <tr>
+                <td align="center">商品名称</td>
+                <td align="center">单价</td>
+                <td align="center">数量</td>
+                <td align="center">小计</td>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr>
+                <td align="center">iphone6</td>
+                <td align="center">4488</td>
+                <td align="center">
+                    <input type="button" value="+" onclick="cal(this)"/>
+                    <span>1</span>
+                    <input type="button" value="-" onclick="cal(this)"/>
+                </td>
+                <td align="center">4488</td>
+            </tr>
+            <tr>
+                <td align="center">华为</td>
+                <td align="center">5588</td>
+                <td align="center">
+                    <input type="button" value="+" onclick="cal(this)" />
+                    <span>1</span>
+                    <input type="button" value="-" onclick="cal(this)" />
+                </td>
+                <td align="center">5588</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"> Total</td>
+                <td id="total" align="center">0.0</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

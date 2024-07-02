@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+            function $(id){return document.getElementById(id);}
+            function validate(){
+                var msg = "用户名为："
+                var username = $("usernam").value;
+                var password = $("password").value;
+                var email = $("email").value;
+                msg = msg+username+"\n密码为:"+password+"\n邮箱为:"+email;
+                alert(msg);
+            }
+    </script>
+</head>
+<body>
+    <form action="" method="post" name="myForm">
+        <fieldset style="width: 350px; height: 150px; text-align: center;">
+            <legend>用户信息</legend> 
+            用户名: <input type="text" name="username" id="username">
+            <br>
+            密码: <input type="password" name="password" id="password">
+            <br>
+            邮箱: <input type="email" name="email" id="email">
+            <br>
+            <input type="button" value="提交" onclick="validate();">
+            <input type="reset" name="" id="">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        document.write("<b>判断课程成绩等级</b><br>");
+        var score = prompt("请输入课程的成绩", 60);
+        if(score != null)
+        {
+            if(score >= 90)
+            {
+                alert("1--成绩为\"优秀\"!");
+            }
+            else if(score >= 80)
+            {
+                alert("2--成绩为\"良好\"!");
+            }
+            else if(score >= 70)
+            {
+                alert("3--成绩为\"中等\"!");
+            }
+            else if(score >= 60)
+            {
+                alert("4--成绩为\"及格\"!");
+            }
+            else
+            {
+                alert("5--成绩为\"不及格\"!");
+            }
+        }
+
+    </script>
+</body>
+</html>

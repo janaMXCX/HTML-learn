@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wai{
+            width: 300px;
+            height: 150px;
+            border: 1px solid #000;
+            background-image: url("132.png");
+        }
+        #nei{
+            border-radius: 100%;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            border: 1px solid #000;
+            color: red;
+            background-color: rgba(255, 0, 0, 0.5);
+            margin: 0 auto;
+            position: relative;
+            top: 25px;
+            left: -9999px;
+            line-height: 100px;
+        }
+        #wai:hover #nei{
+            left: 0px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="wai">
+        <div id="nei">
+            <a href="">测试</a>
+        </div>
+    </div>
+</body>
+</html>

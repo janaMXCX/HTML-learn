@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* 整体布局设置 */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td,
+img {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 12px;
+    color: #8a878e;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+}
+
+.cl {
+    clear: both;
+}
+
+/* 头部导航栏 */
+#Departure{
+    width: 1200px;
+    height: 25px;
+    margin: 0 auto;
+}
+#Departure>a{
+    float: right;
+    color: blue;
+    font-size: 13px;
+    position: relative;
+    top: 6px;
+}
+/* 顶部导航栏 */
+#menu_top{
+    width: 1200px;
+    height: 27px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+}
+#menu_top>div>ul{
+    float: left;
+}
+#menu_top>div>ul>li {
+    float: left;
+    display: block;
+    width: 96px;
+    height: 27px;
+    line-height: 27px;
+}
+#menu_top>div>ul>li>a{
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    color: #666666;
+}
+#menu_top>div>ul>li:hover{
+    background-color: #00affe;
+}
+#menu_top>div>ul>li:hover a{
+    color: red;
+}
+/* 图片 */
+#middle{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+}
+#middle>#left{
+    width: 940px;
+    height: 400px;
+    position: absolute;
+
+}
+#middle>#left>.tu{
+    float: left;
+    width: 221px;
+    height: 165px;
+    margin-right: 14px;
+    margin-bottom: 25px;
+    background-color: red;
+    position: relative;
+    left: 10px;
+    top: 25px;
+}
+#middle>#left>#yi{
+    background-image: url(images/北京.jpg);
+}
+#middle>#left>#er {
+    background-image: url(images/桂林.jpg);
+}
+#middle>#left>#san {
+    background-image: url(images/昆明.jpg);
+}
+#middle>#left>#si {
+    background-image: url(images/丽江.jpg);
+}
+#middle>#left>#wu {
+    background-image: url(images/三亚.jpg);
+}
+#middle>#left>#liu {
+    background-image: url(images/厦门.jpg);
+}
+#middle>#left>#qi {
+    background-image: url(images/张家界.jpg);
+}
+#middle>#left>#ba {
+    background-image: url(images/重庆.jpg);
+}
+/* 图内半透明圆圈 */
+#middle>#left>.tu>.yuan{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 22.5px;
+    border-radius: 100%;
+    background-color: rgb(0,0,0,0.5);
+}
+#middle>#left>.tu>.yuan>a{
+    line-height: 120px;
+    display: block;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+}
+#middle>#right{
+    float: right;
+    position: relative;
+    top: 25px;
+    right: 10px;
+}
+#mnav{
+    width: 1200px;
+    height: 30px;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+}
+#mnav>ul{
+    float: left;
+}
+#mnav>ul>li{
+    float: left;
+    display: block;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+#mnav>ul>li>a{
+    font-size: 13px;
+    color: #666666;
+}
+#mnav>ul>li:hover{
+    background-color: #00affe;
+}
+#mnav>ul>li:hover a{
+    color:red
+}
+#bottom{
+    width: 1200px;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#bottom>.ditu{
+    float: left;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+#bottom>.ditu>div{
+    margin-top: 10px;
+    text-align: center;
+}
+#bottom>.ditu>div>p{
+    font-size: 13px;
+    color: #666666;
+}

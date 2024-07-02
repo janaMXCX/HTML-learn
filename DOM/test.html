@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="welcome" name="a">欢迎您回到祖国的怀抱</h1>
+    <a href="http://www.baidu.com">百度</a>
+    <script>
+        var s = document.getElementById("welcome");
+        var c = document.getElementsByName("a");
+        console.log(s);
+        console.log(c);
+        var root = document.documentElement;
+        var count = root.childElementCount;
+        console.log(count);
+        console.log(root);
+        var bNode = root.lastChild;
+        console.log(bNode.nodeType);
+        console.log(bNode.parentNode);
+        console.log(bNode.parentElement);
+        console.log(bNode.firstChild.nodeType);
+        
+    </script>
+</body>
+</html>
